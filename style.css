@@ -130,6 +130,11 @@ nav a:hover, nav a::selection {
   background-image: url('/images/hero-bg.png');
 
 }
+.no {
+  text-decoration: none;
+  font-style: none;
+  font-weight: normal;
+}
 
 /* stats */
 .stats-section {
@@ -232,11 +237,6 @@ nav a:hover, nav a::selection {
   background-color: #f2f2f2;
   padding: 2rem 1rem;
   text-align: center;
-}
-
-.search-section h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
 }
 
 .search-form {
